@@ -1,0 +1,30 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data and transient user files
+data/*.db
+data/*.db-*
+uploads/
+results/
+*.tmp
+
+# Local repair snapshots
+invoice_flagging/backup_before_repair_*/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Keep trained inference artifacts tracked
+!freight_cost_prediction/models/*.joblib
+!invoice_flagging/models/*.joblib
