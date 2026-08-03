@@ -3,6 +3,9 @@
 A Streamlit MVP that estimates invoice freight and flags invoices that may need
 additional review. The application performs inference only; it does not retrain
 models or store uploaded invoice data.
+<img width="1917" height="908" alt="image" src="https://github.com/user-attachments/assets/b46cfdd6-0f79-4f98-bb78-bd8cd9fb70ce" />
+
+
 
 ## Run locally
 
@@ -13,6 +16,8 @@ models or store uploaded invoice data.
 
 Open the local URL printed by Streamlit. The app includes single-invoice
 analysis, CSV batch processing, downloadable results, and model information.
+<img width="1915" height="915" alt="image" src="https://github.com/user-attachments/assets/4bb826ae-ebb4-45c7-bf48-e916817fb5f8" />
+
 
 ## Batch CSV
 
